@@ -1,0 +1,262 @@
+{
+  "wave_height": {
+    "units": [
+      "m"
+    ],
+    "info": [
+      "Wave height"
+    ]
+  },
+  "peak_period": {
+    "units": [
+      "s"
+    ],
+    "info": [
+      "Peak period(Tp)"
+    ]
+  },
+  "energy_period": {
+    "units": [
+      "s"
+    ],
+    "info": [
+      "Energy period(Te)"
+    ]
+  },
+  "peak_period_range": {
+    "units": [
+      "s"
+    ],
+    "info": [
+      "Range of wave periods(Te) used in the wecSim simulations."
+    ]
+  },
+  "energy_period_range": {
+    "units": [
+      "s"
+    ],
+    "info": [
+      "Range of wave periods(Tp) used in the wecSim simulations."
+    ]
+  },
+  "angle_exceeded_endstop": {
+    "units": [
+      "binary"
+    ],
+    "info": [
+      "Binary value indicating whether the PTO has exceeded it's end stop length"
+    ]
+  },
+  "body_dimensions_x": {
+    "units": [
+      "m"
+    ],
+    "info": [
+      "Gross physical dimaensions of the hydrodynamic bodies. (x) is the in the direction of the wave. (y) is perpendicular to the wave direction. (z) is perpendicular to the x, y plane."
+    ]
+  },
+  "body_dimensions_y": {
+    "units": [
+      "m"
+    ],
+    "info": [
+      "Gross physical dimaensions of the hydrodynamic bodies. (x) is the in the direction of the wave. (y) is perpendicular to the wave direction. (z) is perpendicular to the x, y plane."
+    ]
+  },
+  "body_dimensions_z": {
+    "units": [
+      "m"
+    ],
+    "info": [
+      "Gross physical dimaensions of the hydrodynamic bodies. (x) is the in the direction of the wave. (y) is perpendicular to the wave direction. (z) is perpendicular to the x, y plane."
+    ]
+  },
+  "body_mass": 0.0,
+  "body_moment_of_inertia_xx": {
+    "units": [
+      "kg\u00b7m^2"
+    ],
+    "info": [
+      "Diagonal values of the mass moment of inertia matrix."
+    ]
+  },
+  "body_moment_of_inertia_yy": {
+    "units": [
+      "kg\u00b7m^2"
+    ],
+    "info": [
+      "Diagonal values of the mass moment of inertia matrix."
+    ]
+  },
+  "body_moment_of_inertia_zz": {
+    "units": [
+      "kg\u00b7m^2"
+    ],
+    "info": [
+      "Diagonal values of the mass moment of inertia matrix."
+    ]
+  },
+  "body_volume": {
+    "units": [
+      "m^3"
+    ],
+    "info": [
+      "Volume of the hydrodynamic bodies."
+    ]
+  },
+  "capture_width": {
+    "units": [
+      "m"
+    ],
+    "info": [
+      "Width of the wavefront (assuming uni-directional waves) that contains the same amount of power as that absorbed by the WEC."
+    ]
+  },
+  "capture_width_ratio": {
+    "units": [
+      "none"
+    ],
+    "info": [
+      "Ratio of the energy capture to the energy flux of the WEC."
+    ]
+  },
+  "energy_flux": {
+    "units": [
+      "kW/m"
+    ],
+    "info": [
+      "Wave energy flux per unit of wave-crest length. Defined as 1/2*(wave height^2) * wave period"
+    ]
+  },
+  "power_take_off_heave_velocity_average": {
+    "units": [
+      "m/s"
+    ],
+    "info": [
+      "Average value of the PTO heave velocity measured from the from the sea surface normal direction."
+    ]
+  },
+  "power_take_off_heave_velocity_maximum": {
+    "units": [
+      "m/s"
+    ],
+    "info": [
+      "Maximum absolute value of the PTO heave velocity measured from the from the sea surface normal direction."
+    ]
+  },
+  "power_take_off_internal_heave_force_average": {
+    "units": [
+      "N"
+    ],
+    "info": [
+      "Average absolute value of heave force"
+    ]
+  },
+  "power_take_off_internal_heave_force_maximum": {
+    "units": [
+      "N"
+    ],
+    "info": [
+      "Maximum absolute value of heave force"
+    ]
+  },
+  "power_take_off_internal_heave_force_peak_to_average": {
+    "units": [
+      "none"
+    ],
+    "info": [
+      "Peak to average value force ratio of the PTO in heave"
+    ]
+  },
+  "maximum_constraint_heave_force": 0.0,
+  "power_take_off_internal_heave_power_average": {
+    "units": [
+      "W"
+    ],
+    "info": [
+      "Average absolute value of the PTO power(W) in heave"
+    ]
+  },
+  "power_take_off_internal_heave_power_maximum": {
+    "units": [
+      "W"
+    ],
+    "info": [
+      "Peak to average value ratio of PTO power(W) in heave"
+    ]
+  },
+  "power_take_off_internal_heave_power_peak_to_average": {
+    "units": [],
+    "info": []
+  },
+  "power_take_off_heave_position_delta": {
+    "units": [
+      "m"
+    ],
+    "info": [
+      "Total travel of PTO between the maximum and minimum positions."
+    ]
+  },
+  "power_take_off_heave_position_maximum": {
+    "units": [
+      "m"
+    ],
+    "info": [
+      "Maximum stroke position(m) of the PTO measured from the from the sea surface normal direction."
+    ]
+  },
+  "power_take_off_heave_position_minimum": {
+    "units": [
+      "m"
+    ],
+    "info": [
+      "Minimum stroke position(m) of the PTO measured from the from the sea surface normal direction."
+    ]
+  },
+  "scaling_factor": 0.25,
+  "simulation_duration": 4200.0,
+  "simulation_ramp_length": 600.0,
+  "water_depth": 100.0,
+  "wave_break_calculation": {
+    "units": [
+      "non-dimensional"
+    ],
+    "info": [
+      "Wave breaking threshold calculation defined by wave height divided by the water depth."
+    ]
+  },
+  "wave_break_criteria_met": {
+    "units": [
+      "binary"
+    ],
+    "info": [
+      "Binary value indicating whether this sea state exceeds the wave breaking criteria (0.78)"
+    ]
+  },
+  "wave_elevation_maximum": {
+    "units": [
+      "m"
+    ],
+    "info": [
+      "Maximum height of the sea surface elevation."
+    ]
+  },
+  "wave_elevation_minimum": {
+    "units": [
+      "m"
+    ],
+    "info": [
+      "Minimum height of the sea surface elevation."
+    ]
+  },
+  "wave_sea_state": {
+    "units": [
+      "binary"
+    ],
+    "info": [
+      "Matrix of binary values indicating whether a particular sea state was simulated."
+    ]
+  },
+  "wec_type": "Reference Model 3",
+  "wec_scale": "5"
+}

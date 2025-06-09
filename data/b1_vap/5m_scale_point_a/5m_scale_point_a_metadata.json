@@ -1,0 +1,220 @@
+{
+  "wave_height": {
+    "units": [
+      "m"
+    ],
+    "info": [
+      "Wave height"
+    ]
+  },
+  "peak_period": {
+    "units": [
+      "s"
+    ],
+    "info": [
+      "Energy period(Te)"
+    ]
+  },
+  "energy_period": {
+    "units": [],
+    "info": []
+  },
+  "peak_period_range": {
+    "units": [
+      "s"
+    ],
+    "info": [
+      "Range of wave periods(Tp) used in the wecSim simulations."
+    ]
+  },
+  "energy_period_range": {
+    "units": [
+      "s"
+    ],
+    "info": [
+      "Range of wave periods(Te) used in the wecSim simulations."
+    ]
+  },
+  "body_dimensions_x": 5.0,
+  "body_dimensions_y": 5.0,
+  "body_dimensions_z": 1.25,
+  "body_mass": 17169.971064814818,
+  "body_moment_of_inertia_xx": 41545.31169624487,
+  "body_moment_of_inertia_yy": 41545.31169624487,
+  "body_moment_of_inertia_zz": 76699.04192386834,
+  "body_volume": 24.528530092592593,
+  "capture_width_ratio": {
+    "units": [
+      "none"
+    ],
+    "info": [
+      "Ratio of the energy capture to the energy flux of the WEC."
+    ]
+  },
+  "capture_width": {
+    "units": [
+      "m"
+    ],
+    "info": [
+      "Width of the wavefront (assuming uni-directional waves) that contains the same amount of power as that absorbed by the WEC."
+    ]
+  },
+  "energy_flux": {
+    "units": [
+      "kW/m"
+    ],
+    "info": [
+      "Wave energy flux per unit of wave-crest length. Defined as 1/2*(wave height^2) * wave period"
+    ]
+  },
+  "exceed_stop_angle": {
+    "units": [],
+    "info": []
+  },
+  "maximum_constraint_heave_force": {
+    "units": [
+      "N"
+    ],
+    "info": [
+      "Maximum absolute value of the PTO force(N) constraint in heave"
+    ]
+  },
+  "maximum_constraint_surge_force": {
+    "units": [
+      "N"
+    ],
+    "info": [
+      "Maximum absolute value of the PTO force(N) constraint in surge"
+    ]
+  },
+  "power_take_off_heave_position_minimum": {
+    "units": [
+      "m"
+    ],
+    "info": [
+      "Minimum stroke position(m) of the PTO measured from the from the sea surface normal direction."
+    ]
+  },
+  "power_take_off_heave_position_maximum": {
+    "units": [
+      "m"
+    ],
+    "info": [
+      "Maximum stroke position(m) of the PTO measured from the from the sea surface normal direction."
+    ]
+  },
+  "power_take_off_heave_position_delta": {
+    "units": [
+      "m"
+    ],
+    "info": [
+      "Total travel of PTO between the maximum and minimum positions."
+    ]
+  },
+  "power_take_off_heave_velocity_maximum": {
+    "units": [
+      "m/s"
+    ],
+    "info": [
+      "Maximum absolute value of the PTO's heave velocity(m/s) measured from the from the sea surface normal direction."
+    ]
+  },
+  "power_take_off_heave_velocity_average": {
+    "units": [
+      "m/s"
+    ],
+    "info": [
+      "Average value of the PTO's heave velocity(m/s) measured from the from the sea surface normal direction."
+    ]
+  },
+  "power_take_off_heave_force_average": {
+    "units": [
+      "N"
+    ],
+    "info": [
+      "Average absolute value of force (N) of the PTO in heave"
+    ]
+  },
+  "power_take_off_heave_force_maximum": {
+    "units": [
+      "N"
+    ],
+    "info": [
+      "Maximum absolute value of force (N) of the PTO in heave"
+    ]
+  },
+  "peak_to_average_force_ratio": {
+    "units": [
+      "none"
+    ],
+    "info": [
+      "Peak to average value ratio of force (N) of the PTO in heave"
+    ]
+  },
+  "power_average": {
+    "units": [
+      "W"
+    ],
+    "info": [
+      "Average absolute value of the PTO power(W) in heave"
+    ]
+  },
+  "power_maximum": {
+    "units": [
+      "W"
+    ],
+    "info": [
+      "Peak to average value ratio of PTO power(W) in heave"
+    ]
+  },
+  "peak_to_average_power_ratio": {
+    "units": [],
+    "info": []
+  },
+  "scaling_factor": 0.8333333333333334,
+  "simulation_duration": 4600.0,
+  "simulation_ramp_length": 1000.0,
+  "water_depth": 50.0,
+  "wave_break_calculation": {
+    "units": [
+      "binary"
+    ],
+    "info": [
+      "Wave breaking threshold calculation defined by wave height divided by the water depth."
+    ]
+  },
+  "wave_break_criteria_met": {
+    "units": [
+      "binary"
+    ],
+    "info": [
+      "Binary value indicating whether this sea state exceeds the wave breaking criteria (0.78)"
+    ]
+  },
+  "wave_elevation_maximum": {
+    "units": [
+      "m"
+    ],
+    "info": [
+      "Maximum height of the sea surface elevation."
+    ]
+  },
+  "wave_elevation_minimum": {
+    "units": [
+      "m"
+    ],
+    "info": [
+      "Minimum height of the sea surface elevation."
+    ]
+  },
+  "wave_sea_state": {
+    "units": [
+      "binary"
+    ],
+    "info": [
+      "Matrix of binary values indicating whether a particular sea state was simulated."
+    ]
+  },
+  "wec_type": "Point Absorber",
+  "wec_scale": "5"
+}
