@@ -21,6 +21,8 @@ Wave Energy Converter (WEC) specifically reading json data from [Small Scale WEC
   - By variable, by test case peak period matrices as heatmap: `./viz/by_col/<test_case>/matricies/peak_period/<test_case>_<variable>.png`
   - By variable, by test case energy period matrices as heatmap: `./viz/by_col/<test_case>/matricies/energy_period/<test_case>_<variable>.png`
 
+[McCabe Wave Pump - 10m Scale - Power Average](./viz/by_col/power_average/peak_period/10m_scale_mccabe_power_average_peak_period_matrix.png)
+
 For data details please refer to the [Small Scale WEC Performance Modeling Data][small_wec_data]
 page.
 
