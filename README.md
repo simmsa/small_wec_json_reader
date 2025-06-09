@@ -1,8 +1,7 @@
 # Small WEC Modeling Data Extractor and Visualizer
 
 This repository contains a Python script designed to extract and visualize data from the [Small WEC
-Performance Modeling Tool][small_wec]. The script is intended to be used with the OpenEI Small Scale
-Wave Energy Converter (WEC) specifically reading json data from [Small Scale WEC Performance Modeling Data][small_wec_data].
+Performance Modeling Tool][small_wec]. The script converts and visualizes json data from the [OpenEI Small Scale WEC Performance Modeling Data Submission 380][small_wec_data].
 
 ## Numerical Data
 
